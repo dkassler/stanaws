@@ -14,6 +14,8 @@ sudo apt install yadm
 yadm clone https://github.com/dkassler/dotfiles.git
 yadm checkout aws_sae
 
+#run permissions for runRscript.sh
+chmod u+x ~/stanaws/runRscript.sh
 
 end=`date +%s`
 runtime=$((end-strt))
