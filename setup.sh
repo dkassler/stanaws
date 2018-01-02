@@ -15,7 +15,7 @@ yadm clone https://github.com/dkassler/dotfiles.git
 yadm checkout aws_sae
 
 #run permissions for runRscript.sh
-chmod u+x ~/stanaws/runRscript.sh
+chmod u+x ~/stanaws/rscript.sh
 
 end=`date +%s`
 runtime=$((end-strt))
